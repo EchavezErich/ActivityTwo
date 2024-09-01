@@ -9,7 +9,7 @@ public class ActivityTwo {
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        System.out.println("Enter Size of the Basket: ");
+        System.out.println("Enter Size of the Basin: ");
         int maxSize = scn.nextInt();
         
         
@@ -38,11 +38,11 @@ public class ActivityTwo {
        }
        
         else if (choice == 3){
-            System.out.println("\nMao ni siya ang top: ");
+            System.out.println("\nTop: ");
            System.out.println(stack.peek());
        }
         else if (choice == 4){
-            System.out.println("\nMao ni siya tanan: ");
+            System.out.println("\nMao ni ang tanan: ");
            stack.loop();
         }
         else if (choice == 5){
@@ -67,7 +67,7 @@ public class ActivityTwo {
         }
 
        else{
-            System.out.println("\nGIIGNAG 1 2 3 4 LANG!!!");  
+            System.out.println("\n1-4 raman");  
         }
         }
 
